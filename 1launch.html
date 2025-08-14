@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Start the fun!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <button id="startPrank">Are you ready?</button>
+
+  <script>
+    document.getElementById('startPrank').addEventListener('click', function() {
+      const prankWindow = window.open('1prank.html', '_blank');
+      if (!prankWindow) {
+        alert('Please enable popups to see the prank!');
+      }
+    });
+  </script>
+</body>
+</html>

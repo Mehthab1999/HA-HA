@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question Time!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <script>
+    function ask() {
+      const answer = confirm("Are you stupid?");
+      if (answer) {
+        alert("Ha Ha, I knew it dummy🤣🤣!");
+        window.close();
+      } else {
+        ask();
+      }
+    }
+    ask();
+  </script>
+</body>
+</html>
